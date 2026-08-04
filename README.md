@@ -3,12 +3,6 @@
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31lyn6ylwxit7zpisowpr4mpjafe&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false">
   </a>
 </p>
-<p align="center"> <img src="https://raw.githubusercontent.com/LowHoang1104/LowHoang1104/output/snake.svg" /> </p>
 
 <p><img src="https://raw.githubusercontent.com/LowHoang1104/LowHoang1104/main/game.gif"/></p>
 
-<p align="center">
-  <a href="https://github.com/marshallku/gitgarden">
-    <img src="https://gitgarden.marshallku.dev/?user_name=LowHoang1104"/>
-  </a>
-</p>

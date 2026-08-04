@@ -4,3 +4,5 @@
   </a>
 </p>
 <p align="center"> <img src="https://raw.githubusercontent.com/LowHoang1104/LowHoang1104/output/github-contribution-grid-snake.svg" /> </p>
+<img src="https://raw.githubusercontent.com/LowHoang1104/LowHoang1104/main/game.gif"/>
+[![GitGarden](https://gitgarden.marshallku.dev/?user_name=LowHoang1104)](https://github.com/marshallku/gitgarden)

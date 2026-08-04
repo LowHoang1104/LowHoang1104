@@ -7,4 +7,8 @@
 
 <p><img src="https://raw.githubusercontent.com/LowHoang1104/LowHoang1104/main/game.gif"/></p>
 
-<p>[![GitGarden](https://gitgarden.marshallku.dev/?user_name=LowHoang1104)](https://github.com/marshallku/gitgarden)</p>
+<p align="center">
+  <a href="https://github.com/marshallku/gitgarden">
+    <img src="https://gitgarden.marshallku.dev/?user_name=LowHoang1104"/>
+  </a>
+</p>

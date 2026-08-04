@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - master
+      - main
+
 jobs:
   generate:
     permissions:
@@ -13,12 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: generate snake.svg and snake.gif
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
-      - name: push snake.svg to the output branch
+          outputs: |
+            dist/snake.svg?color_snake=%23FFD700&color_dots=%231a1a3d,%235b2c6f,%23c0392b,%23e74c3c,%23FFD700
+            dist/snake.gif?color_snake=%23FFD700&color_dots=%231a1a3d,%235b2c6f,%23c0392b,%23e74c3c,%23FFD700&color_background=%230a0a1a
+
+      - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
